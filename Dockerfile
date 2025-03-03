@@ -1,9 +1,8 @@
 FROM openjdk:21
 
-
-#LABEL org.opencontainers.image.licenses=MIT
-#LABEL org.opencontainers.image.source=https://github.com/dnpm-dip/http-polling-module-docker
-#LABEL org.opencontainers.image.description="HttpPollingModule Docker Image"
+LABEL org.opencontainers.image.licenses=MIT
+LABEL org.opencontainers.image.source=https://github.com/dnpm-dip/http-polling-module-docker
+LABEL org.opencontainers.image.description="HttpPollingModule Docker Image"
 
 ARG MODULE_JAR
 
