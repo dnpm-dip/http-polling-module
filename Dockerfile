@@ -4,9 +4,7 @@ LABEL org.opencontainers.image.licenses=MIT
 LABEL org.opencontainers.image.source=https://github.com/dnpm-dip/http-polling-module-docker
 LABEL org.opencontainers.image.description="HttpPollingModule Docker Image"
 
-ARG MODULE_JAR
-
-COPY $MODULE_JAR /opt/HttpPollingModule.jar
+COPY ./HttpPollingModule-1.1.jar /opt/HttpPollingModule.jar
 
 WORKDIR /opt
 
