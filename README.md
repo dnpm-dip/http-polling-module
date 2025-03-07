@@ -1,4 +1,4 @@
-# Polling Module: Docker Image
+# Polling Module
 
 [![main](https://github.com/dnpm-dip/http-polling-module/actions/workflows/main.yml/badge.svg)](https://github.com/dnpm-dip/http-polling-module/actions/workflows/main.yml)
 
